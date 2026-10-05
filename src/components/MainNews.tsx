@@ -12,6 +12,7 @@ interface News {
 
 const MainNews = ({ news }: {news: News[]}) => {
   const [firstNews, ...otherNews] = news;
+  
   return (
     <div className="flex gap-3">
       <Link href={`/news/${firstNews.id}`}>
