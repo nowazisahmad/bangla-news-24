@@ -80,7 +80,7 @@ const NewsDetails = async ({
     });
 
     if (!res.ok) {
-      console.error("News API response error:", res.status);
+      // console.error("News API response error:", res.status);
       notFound();
     }
 
@@ -88,7 +88,7 @@ const NewsDetails = async ({
 
     news = result?.data ?? null;
   } catch (error) {
-    console.error("NEWS API ERROR:", error);
+    // console.error("NEWS API ERROR:", error);
 
     return (
       <main className="mx-auto max-w-5xl px-4 py-16">
