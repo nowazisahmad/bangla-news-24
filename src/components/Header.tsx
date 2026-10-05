@@ -26,7 +26,9 @@ const Header = () => {
         </div>
       </div>
 
-     <UserInfo/>
+     <div className="flex flex-col items-center justify-end">
+      <UserInfo/>
+     </div>
 
 
       <NavLinks/>

@@ -38,12 +38,12 @@ const UserInfo = () => {
         </div>
       ) : (
         <div>
-          <Link href={"/signin"}>
+          <Link href={"/sign-in"}>
             <button className="btn btn-ghost text-neutral-700 transition-colors hover:text-red-700">
               সাইন ইন
             </button>
           </Link>
-          <Link href={"/signup"}>
+          <Link href={"/sign-up"}>
             {" "}
             <button className="btn  bg-red-700 px-3 py-1.5 font-semibold text-white transition-colors hover:bg-red-800">
               সাইন আপ
